@@ -1,6 +1,6 @@
 FROM almalinux:9
 RUN dnf install nginx -y
-LABEL project="expense"\
-      environment="dev"\
-      component="frontend"
-      author="karna0323"
+LABEL project="expense" \
+      environment="dev" \
+      component="frontend" \
+      author="karunakar"
