@@ -10,6 +10,9 @@ sudo dnf install docker-ce docker-ce-cli containerd.io docker-buildx-plugin dock
 
 sudo usermod -aG docker ec2-user
 
-exit
+systemctl start docker
 
+systemctl enable docker
+
+systemctl status docker
 
